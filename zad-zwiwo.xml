@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+<file name="ant-tasks.iml">
+<size>428</size>
+<hash type="md5">d86e468e274fe959da47bed5cbb025cd</hash>
+<url>http://default.url.com/.idea/ant-tasks.iml</url>
+</file>
+<file name="compiler.xml">
+<size>686</size>
+<hash type="md5">b1e2d88063e7fa8bdd1b2bb48e5f4f40</hash>
+<url>http://default.url.com/.idea/compiler.xml</url>
+</file>
+<file name="profiles_settings.xml">
+<size>76</size>
+<hash type="md5">60e83b7d2a37fa2a48c085f5ed5ea48c</hash>
+<url>http://default.url.com/.idea/copyright/profiles_settings.xml</url>
+</file>
+<file name="misc.xml">
+<size>2679</size>
+<hash type="md5">af322d6659f1746fda5d6271065b03de</hash>
+<url>http://default.url.com/.idea/misc.xml</url>
+</file>
+<file name="modules.xml">
+<size>270</size>
+<hash type="md5">a13e7f2f7e2aec1398eefe6e8708660e</hash>
+<url>http://default.url.com/.idea/modules.xml</url>
+</file>
+<file name="workspace.xml">
+<size>23580</size>
+<hash type="md5">b42e2b529b5c68ac21221dbd847ba18a</hash>
+<url>http://default.url.com/.idea/workspace.xml</url>
+</file>
+<file name="ant-tasks.iml">
+<size>1752</size>
+<hash type="md5">fa745d802d8491168086d9a60908f01b</hash>
+<url>http://default.url.com/ant-tasks.iml</url>
+</file>
+<file name="build.xml">
+<size>1896</size>
+<hash type="md5">cd056afa1003905a18d4fe3391c4f01d</hash>
+<url>http://default.url.com/build.xml</url>
+</file>
+<file name="MetalinkTask.class">
+<size>6916</size>
+<hash type="md5">01a2fb3a61c7088df645956c0f6cece7</hash>
+<url>http://default.url.com/build/org/ant/tasks/MetalinkTask.class</url>
+</file>
+<file name="tasks.properties">
+<size>32</size>
+<hash type="md5">9cca2cf46715141765ac172d5e964327</hash>
+<url>http://default.url.com/build/org/ant/tasks/tasks.properties</url>
+</file>
+<file name="default.properties">
+<size>118</size>
+<hash type="md5">d1f0e6c38cbd6bdddd64858af7132e4c</hash>
+<url>http://default.url.com/default.properties</url>
+</file>
+<file name="ant-tasks.jar">
+<size>7633</size>
+<hash type="md5">c2c74e473d955cab67f87cc27e1d6d8a</hash>
+<url>http://default.url.com/lib/ant-tasks.jar</url>
+</file>
+<file name="ant.jar">
+<size>1286456</size>
+<hash type="md5">b7eeda8f70d6ce287fe1b30e2ccc8fdb</hash>
+<url>http://default.url.com/lib/ant.jar</url>
+</file>
+<file name="MetalinkTask.java">
+<size>5692</size>
+<hash type="md5">10d75504cfb20039ed21a43160877315</hash>
+<url>http://default.url.com/src/java/org/ant/tasks/MetalinkTask.java</url>
+</file>
+<file name="tasks.properties">
+<size>32</size>
+<hash type="md5">9cca2cf46715141765ac172d5e964327</hash>
+<url>http://default.url.com/src/java/org/ant/tasks/tasks.properties</url>
+</file>
+<file name="zad-zwiwo.xml">
+<size>1709</size>
+<hash type="md5">5a6d028ba0a9ce32939393d776adbaeb</hash>
+<url>http://default.url.com/zad-zwiwo.xml</url>
+</file>
+</metalink>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project basedir="." default="build" name="ant-tasks">
+    <taskdef resource="org/ant/tasks/tasks.properties">
+        <classpath path="lib/ant-tasks.jar"/>
+    </taskdef>
+
+    <property environment="env"/>
+    <property file="default.properties"/>
+
+    <path id="ant-tasks.classpath">
+        <pathelement location="build"/>
+        <pathelement location="lib/ant.jar"/>
+    </path>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target depends="clean" name="init">
+        <mkdir dir="build"/>
+        <copy includeemptydirs="false" todir="build">
+            <fileset dir="src/java">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target depends="init" name="build">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build" includeantruntime="false" source="${source}"
+               target="${target}">
+            <src path="src/java"/>
+            <classpath refid="ant-tasks.classpath"/>
+        </javac>
+    </target>
+
+    <target name="build-jar" depends="build">
+        <jar destfile="lib/ant-tasks.jar"
+             basedir="build"
+             includes="**/*">
+            <fileset dir="build/"/>
+            <manifest>
+                <attribute name="Implementation-Vendor" value="net.kryszak"/>
+                <attribute name="Implementation-Title" value="Ant Metalink Task"/>
+                <attribute name="Implementation-Version" value="1.0"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="metalink" depends="build-jar">
+        <meta4 file="zad-zwiwo.xml">
+            <fileset dir="."/>
+        </meta4>
+    </target>
+</project>
