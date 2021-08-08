@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/004fe5886de044ffb1ba81ed1beb3bee)](https://www.codacy.com/manual/Kryszak/ant-metalink?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kryszak/ant-metalink&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8a205b0101414ef1a2f26d0bd8e1e4c3)](https://www.codacy.com/gh/Kryszak/ant-metalink/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kryszak/ant-metalink&amp;utm_campaign=Badge_Grade)
 
 # ant-metalink
 
